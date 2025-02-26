@@ -2,16 +2,17 @@
 <img src="assets/rodimus.jpg" width="280px">
 </div>
 
-<h2 align="center"> <a href="https://arxiv.org/abs/2410.06577">Rodimus&ast;: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions
+<h2 align="center"> <a href="https://openreview.net/forum?id=IIVYiJ1ggK">Rodimus&ast;: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions
 </a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.</h5>
 
 <h5 align=center>
 
 <!-- [![Demo](https://img.shields.io/badge/⚡-Hugging%20Face%20Demo-yellow.svg)](https://huggingface.co/spaces/Chat-UniVi/Chat-UniVi) -->
-[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](TODO)
-[![arXiv](https://img.shields.io/badge/Arxiv-2410.11842-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.06577)
-[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](TODO)
+[![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/)
+[![ModelScope](https://img.shields.io/badge/🤖-ModelScope-3771C8.svg)](https://modelscope.cn)
+[![ICLR](https://img.shields.io/badge/ICLR-2025-orange?logo=iclryear)](https://openreview.net/forum?id=IIVYiJ1ggK)
+[![License](https://img.shields.io/badge/Code%20License-Apache2.0-yellow)](https://choosealicense.com/licenses/apache-2.0/)
 </h5>
 
 ## Overview
@@ -47,14 +48,33 @@ We propose Rodimus&ast;, including Rodimus and Rodimus+, which tries to break th
 
 ## Pretrained Checkpoints
 
-The models enhanced by code and math datasets.
+### Benchmark Checkpoints
+
+> This checkpoints completed training before submitting the paper, used to reproduce the benchmarks in the paper. 
+> 
+> If you want to use the more practical model, we strongly recommand you to download the checkpionts in **Latest Checkpoints**.
 
 <div align=center>
 
-| Model                    | Contexts | HuggingFace |
-| ------------------------ | -------- | ----------- |
-| Rodimus+-1.6B-Base     | 4096     |             |
-| Rodimus+-1.6B-Instruct | 4096     |             |
+| Model (2024/10/01)                   | Contexts | HuggingFace | ModelScope
+| ------------------------ | -------- | ----------- | ----------- |
+| Rodimus-1.4B-Base     | 2048     |   <a href="https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001">link</a>          | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001/summary">link</a>          |
+| Rodimus+-1.6B-Base | 2048     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001/summary">link</a>          |
+| Rodimus+-Coder-1.6B-Base | 4096     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001/summary">link</a>          |
+
+</div>
+
+The `Rodimus+-Coder-1.6B-Base` is the model enhanced by multi-stage training with math and code datasets in the paper.
+
+### Latest Checkpoints
+
+> This checkpoints contain the **latest checkpoints** of Rodimus* trained by continuously updated data, for continuous training or actual use.
+
+<div align=center>
+
+| Model                   | Date | HuggingFace | ModelScope
+| ------------------------ | -------- | ----------- | ----------- |
+| Rodimus+-1.6B-Base | 2025/02/15     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215/summary">link</a>          |
 
 </div>
 
@@ -62,7 +82,7 @@ The models enhanced by code and math datasets.
 
 ### Installation
 
-1. The latest version of <a href="https://github.com/huggingface/transformers">`transformers`</a> is recommended (at least 4.37.0). 
+1. The latest version of <a href="https://github.com/huggingface/transformers">`transformers`</a> is recommended (at least 4.42.0). 
 2. We evaluate our models with `python=3.8` and `torch==2.1.2`.
 3. If you use Rodimus, you need to install <a href="https://github.com/sustcsonglin/flash-linear-attention">`flash-linear-attention`</a> and <a href="https://github.com/triton-lang/triton">`triton>=2.2.0`</a>. If you use Rodimus+, you need to further install <a href="https://github.com/Dao-AILab/flash-attention">`flash-attention`</a>. 
 
@@ -135,13 +155,12 @@ print(response)
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@misc{he2024rodimusbreakingaccuracyefficiencytradeoff,
-      title={Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions}, 
-      author={Zhihao He and Hang Yu and Zi Gong and Shizhan Liu and Jianguo Li and Weiyao Lin},
-      year={2024},
-      eprint={2410.06577},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2410.06577}, 
+@inproceedings{
+he2025rodimus,
+title={Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions},
+author={Zhihao He and Hang Yu and Zi Gong and Shizhan Liu and Jianguo Li and Weiyao Lin},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=IIVYiJ1ggK}
 }
 ```

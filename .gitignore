@@ -1,0 +1,16 @@
+# intermediate files
+build
+dist
+*.egg-info
+
+# pycache
+__pycache__
+
+# vscode
+.vscode
+
+# macOS
+.DS_Store
+
+# ais
+.theia
