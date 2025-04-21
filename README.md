@@ -32,6 +32,26 @@ We propose Rodimus&ast;, including Rodimus and Rodimus+, which tries to break th
 <img src="assets/overview.png" height="" width="800px" style="margin-bottom:px"/> 
 </div>
 
+**Rodimus+Coder:**
+* We train and opensource the lightweight Rodimus+-Coder model, available in 1.6B and 4B sizes, achieving performance surpassing SOTA models of similar sizes.
+
+<div align=center>
+<img src="assets/rodimus-plus-coder-chat-evaluation.png" height="" width="800px" style="margin-bottom:px"/> 
+</div>
+
+You can download the following table to see the various parameters for your use case. If you are located in mainland China, we also provide the model on modelscope.cn to speed up the download process.
+
+<div align="center">
+
+|     **Model**      | **#Total Params** | **Context Length** | **Download** |
+| :----------------: | :---------------: | :-------------------: | :----------: |
+| Rodimus+-Coder-1.6B |       1.6B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B) |
+| Rodimus+-Coder-1.6B-Chat |       1.6B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) |
+| Rodimus+-Coder-4B |       4B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B) |
+| Rodimus+-Coder-4B-Chat |       4B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) |
+
+</div>
+
 ## Highlights
 
 * **Constant memory footprint but better language modeling performance.**
