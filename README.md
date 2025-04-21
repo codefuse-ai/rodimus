@@ -577,7 +577,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
 
 1. The latest version of <a href="https://github.com/huggingface/transformers">`transformers`</a> is recommended (at least 4.42.0). 
 2. We evaluate our models with `python=3.8` and `torch==2.1.2`.
-3. If you use Rodimus, you need to install <a href="https://github.com/sustcsonglin/flash-linear-attention">`flash-linear-attention`</a> and <a href="https://github.com/triton-lang/triton">`triton>=2.2.0`</a>. If you use Rodimus+, you need to further install <a href="https://github.com/Dao-AILab/flash-attention">`flash-attention`</a>. 
+3. If you use Rodimus, you need to install <a href="https://github.com/sustcsonglin/flash-linear-attention">`flash-linear-attention`</a>, <a href="https://github.com/Dao-AILab/causal-conv1d">`causal_conv1d`</a> and <a href="https://github.com/triton-lang/triton">`triton>=2.2.0`</a>. If you use Rodimus+, you need to further install <a href="https://github.com/Dao-AILab/flash-attention">`flash-attention`</a>. 
 
 ### Examples
 
