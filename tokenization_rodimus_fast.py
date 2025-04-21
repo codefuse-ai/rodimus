@@ -52,6 +52,7 @@ class RodimusTokenizer(PreTrainedTokenizerFast):
         bos_token="<|startoftext|>",
         eos_token="<|endoftext|>",
         cls_token="[CLS]",
+        pad_token="<|endoftext|>",
         gmask_token="[gMASK]",
         add_bos_token=False,
         add_eos_token=False,
