@@ -80,7 +80,7 @@ You can download the following table to see the various parameters for your use 
 | ------------------------ | -------- | ----------- | ----------- |
 | Rodimus-1.4B-Base     | 2048     |   <a href="https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001">link</a>          | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001/summary">link</a>          |
 | Rodimus+-1.6B-Base | 2048     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001/summary">link</a>          |
-| Rodimus+-Coder-1.6B-Base | 4096     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001/summary">link</a>          |
+| Rodimus+-Coder-1.6B-Base-20241001 | 4096     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001/summary">link</a>          |
 
 </div>
 
@@ -88,13 +88,17 @@ The `Rodimus+-Coder-1.6B-Base` is the model enhanced by multi-stage training wit
 
 ### Latest Checkpoints
 
-> This checkpoints contain the **latest checkpoints** of Rodimus* trained by continuously updated data, for continuous training or actual use.
+> These checkpoints contain the **latest checkpoints** of Rodimus* trained by continuously updated data, for continuous training or actual use.
 
 <div align=center>
 
 | Model                   | Date | HuggingFace | ModelScope
 | ------------------------ | -------- | ----------- | ----------- |
-| Rodimus+-1.6B-Base | 2025/02/15     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215/summary">link</a>          |
+| Rodimus+-1.6B-Base-20250215 | 2025/02/15     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215/summary">link</a>          |
+| Rodimus+Coder-1.6B-Base | 2025/04/18     |   <a href="https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B">link</a>           | <a href="https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B">link</a>          |
+| Rodimus+Coder-1.6B-Chat | 2025/04/18     |   <a href="https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat">link</a>           | <a href="https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat">link</a>          |
+| Rodimus+Coder-4B-Base | 2025/04/18     |   <a href="https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B">link</a>           | <a href="https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B">link</a>          |
+| Rodimus+Coder-4B-Chat | 2025/04/18     |   <a href="https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat">link</a>           | <a href="https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat">link</a>          |
 
 </div>
 
