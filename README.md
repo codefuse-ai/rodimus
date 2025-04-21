@@ -63,11 +63,11 @@ We propose Rodimus&ast;, including Rodimus and Rodimus+, which tries to break th
 
 <div align="center">
 
-|     **Model (2024/10/01)**      | **#Total Params** | **Context Length** | **Download** |
-| :----------------: | :---------------: | :----------------: | :----------: |
-| Rodimus-1.4B-Base |       1.4B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001) |
-| Rodimus+-1.6B-Base |       1.6B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001) |
-| Rodimus+-Coder-1.6B-Base-20241001 |       1.6B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) |
+|     **Model (2024/10/01)**      | **#Total Params** | **Training Tokens** | **Context Length** | **Download** |
+| :----------------: | :---------------: | :----------------: | :----------: | :----------: |
+| Rodimus-1.4B-Base |       1.4B       |       500B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001) |
+| Rodimus+-1.6B-Base |       1.6B       |       1T       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001) |
+| Rodimus+-Coder-1.6B-Base-20241001 |       1.6B       |       2.5T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) |
 
 </div>
 
@@ -79,13 +79,12 @@ You can download the following table to see the various parameters for your use 
 
 <div align="center">
 
-|     **Model**      | **#Total Params** | **Training Token** | **Context Length** | **Download** |
+|     **Model**      | **#Total Params** | **Training Tokens** | **Context Length** | **Download** |
 | :----------------: | :---------------: | :----------------: | :----------------: | :----------: |
-| Rodimus+-1.6B-Base-20250215 |       1.6B       |       6T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215) |
 | Rodimus+-Coder-1.6B-Base |       1.6B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B) |
-| Rodimus+-Coder-1.6B-Chat |       1.6B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) |
+| Rodimus+-Coder-1.6B-Chat |       1.6B       |       -       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) |
 | Rodimus+-Coder-4B-Base |       4B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B) |
-| Rodimus+-Coder-4B-Chat |       4B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) |
+| Rodimus+-Coder-4B-Chat |       4B       |       -       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) |
 
 </div>
 
