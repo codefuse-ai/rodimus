@@ -110,7 +110,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td colspan="8">Coding Tasks</td>
     </tr>
     <tr align="center">
-        <th>HumanEval</th>
+        <td>HumanEval</td>
         <td>41.5</td>
         <td>51.2</td>
         <td>19.5</td>
@@ -120,7 +120,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <th>60.4</th>
     </tr>
     <tr align="center">
-        <th>HumanEval+</th>
+        <td>HumanEval+</td>
         <td>34.8</td>
         <td>45.1</td>
         <td>-</td>
@@ -130,7 +130,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>50.6</td>
     </tr>
     <tr align="center">
-        <th>MBPP</th>
+        <td>MBPP</td>
         <td>57.2</td>
         <td>51.2</td>
         <td>31.0</td>
@@ -140,7 +140,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <th>70.0</th>
     </tr>
     <tr align="center">
-        <th>MBPP+</th>
+        <td>MBPP+</td>
         <td>66.1</td>
         <td>62.2</td>
         <td>-</td>
@@ -150,7 +150,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>70.1</td>
     </tr>
     <tr align="center">
-        <th>BCB<sub>COMPLETION</sub></th>
+        <td>BCB<sub>COMPLETION</sub></td>
         <td>21.6</td>
         <td>17.9</td>
         <td>-</td>
@@ -160,7 +160,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>30.4</td>
     </tr>
     <tr align="center">
-        <th>MultiPL-E</th>
+        <td>MultiPL-E</td>
         <td>46.1</td>
         <td>52.5</td>
         <td>-</td>
@@ -170,7 +170,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>56.9</td>
     </tr>
     <tr align="center">
-        <th>CRUXEval</th>
+        <td>CRUXEval</td>
         <td>38.5</td>
         <td>45.1</td>
         <td>-</td>
@@ -193,7 +193,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td colspan="8">General Tasks</td>
     </tr>
     <tr align="center">
-        <th>C-EVAL</th>
+        <td>C-EVAL</td>
         <td>55.2</td>
         <td>56.7</td>
         <td>-</td>
@@ -203,7 +203,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>69.1</td>
     </tr>
     <tr align="center">
-        <th>CMMLU</th>
+        <td>CMMLU</td>
         <td>54.5</td>
         <td>52.3</td>
         <td>-</td>
@@ -213,7 +213,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <th>72.7</th>
     </tr>
     <tr align="center">
-        <th>MMLU</th>
+        <td>MMLU</td>
         <td>55.5</td>
         <td>51.1</td>
         <td>52.2</td>
@@ -223,7 +223,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <th>70.5</th>
     </tr>
     <tr align="center">
-        <th>BBH</th>
+        <td>BBH</td>
         <td>21.8</td>
         <td>46.8</td>
         <td>42.4</td>
@@ -246,7 +246,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td colspan="8">Mathematics Tasks</td>
     </tr>
     <tr align="center">
-        <th>GSM8K</th>
+        <td>GSM8K</td>
         <td>60.4</td>
         <td>68.7</td>
         <td>25.0</td>
@@ -256,7 +256,7 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
         <td>83.4</td>
     </tr>
     <tr align="center">
-        <th>MATH</th>
+        <td>MATH</td>
         <td>23.7</td>
         <td>29.0</td>
         <td>16.4</td>
@@ -307,7 +307,268 @@ We re-evaluate the metrics of the Qwen series models, and the metrics of other s
     <tr align="center">
         <td colspan="9">Coding Tasks</td>
     </tr>
-    
+    <tr align="center">
+        <td>HumanEval</td>
+        <td>64.6</td>
+        <td>76.8</td>
+        <td>20.1</td>
+        <td>79.9</td>
+        <td>74.4</td>
+        <td>86.6</td>
+        <td>71.3</td>
+        <td>87.2</td>
+    </tr>
+    <tr align="center">
+        <td>HumanEval+</td>
+        <td>63.4</td>
+        <td>73.8</td>
+        <td>-</td>
+        <td>80.5</td>
+        <td>68.3</td>
+        <td>82.9</td>
+        <td>-</td>
+        <td>82.3</td>
+    </tr>
+    <tr align="center">
+        <td>MBPP</td>
+        <td>51.0</td>
+        <td>59.0</td>
+        <td>36.6</td>
+        <td>59.2</td>
+        <td>65.3</td>
+        <td>68.0</td>
+        <td>63.2</td>
+        <td>75.8</td>
+    </tr>
+    <tr align="center">
+        <td>MBPP+</td>
+        <td>53.0</td>
+        <td>66.4</td>
+        <td>-</td>
+        <td>61.9</td>
+        <td>63.8</td>
+        <td>68.5</td>
+        <td>-</td>
+        <td>75.1</td>
+    </tr>
+    <tr align="center">
+        <td>LCB<sub>(24.08-24.11)</sub></td>
+        <td>4.0</td>
+        <td>10.9</td>
+        <td>-</td>
+        <td>13.0</td>
+        <td>-</td>
+        <td>13.9</td>
+        <td>-</td>
+        <td>22.8</td>
+    </tr>
+    <tr align="center">
+        <td>BCB<sub>INSTRUCT</sub></td>
+        <td>10.8</td>
+        <td>21.5</td>
+        <td>-</td>
+        <td>21.7</td>
+        <td>33.8</td>
+        <td>26.6</td>
+        <td>-</td>
+        <td>30.6</td>
+    </tr>
+    <tr align="center">
+        <td>HumanEval-Mul</td>
+        <td>50.8</td>
+        <td>57.3</td>
+        <td>-</td>
+        <td>67.4</td>
+        <td>-</td>
+        <td>70.6</td>
+        <td>-</td>
+        <td>76.1</td>
+    </tr>
+    <tr align="center">
+        <td>MBPP-Mul</td>
+        <td>43.4</td>
+        <td>52.4</td>
+        <td>-</td>
+        <td>53.4</td>
+        <td>-</td>
+        <td>59.6</td>
+        <td>-</td>
+        <td>61.4</td>
+    </tr>
+    <tr align="center">
+        <td>MBXP-EN</td>
+        <td>55.8</td>
+        <td>75.5</td>
+        <td>-</td>
+        <td>76.0</td>
+        <td>-</td>
+        <td>87.3</td>
+        <td>-</td>
+        <td>87.7</td>
+    </tr>
+    <tr align="center">
+        <td>MBXP-CN</td>
+        <td>48.8</td>
+        <td>75.0</td>
+        <td>-</td>
+        <td>68.7</td>
+        <td>-</td>
+        <td>84.3</td>
+        <td>-</td>
+        <td>83.5</td>
+    </tr>
+    <tr align="center">
+        <td>CRUXEval</td>
+        <td>28.6</td>
+        <td>55.0</td>
+        <td>-</td>
+        <td>51.6</td>
+        <td>-</td>
+        <td>63.2</td>
+        <td>-</td>
+        <td>69.3</td>
+    </tr>
+    <tr align="center">
+        <td>HumanEvalFix</td>
+        <td>38.9</td>
+        <td>52.6</td>
+        <td>-</td>
+        <td>55.5</td>
+        <td>-</td>
+        <td>68.8</td>
+        <td>-</td>
+        <td>69.3</td>
+    </tr>
+    <tr align="center">
+        <td>Spider</td>
+        <td>61.2</td>
+        <td>71.4</td>
+        <td>-</td>
+        <td>71.8</td>
+        <td>42.2</td>
+        <td>73.5</td>
+        <td>-</td>
+        <td>82.0</td>
+    </tr>
+    <tr align="center">
+        <th>Coding Avg.</th>
+        <td>44.2</td>
+        <td>57.5</td>
+        <td>-</td>
+        <td>58.5</td>
+        <td>-</td>
+        <th>65.7</th>
+        <td>-</td>
+        <th>69.5</th>
+    </tr>
+    <tr align="center">
+        <td colspan="9">General Tasks</td>
+    </tr>
+    <tr align="center">
+        <td>C-EVAL</td>
+        <td>51.5</td>
+        <td>50.8</td>
+        <td>-</td>
+        <td>62.0</td>
+        <td>-</td>
+        <td>61.6</td>
+        <td>-</td>
+        <td>66.4</td>
+    </tr>
+    <tr align="center">
+        <td>CMMLU</td>
+        <td>45.2</td>
+        <td>50.5</td>
+        <td>-</td>
+        <td>60.1</td>
+        <td>-</td>
+        <td>62.0</td>
+        <td>-</td>
+        <td>64.9</td>
+    </tr>
+    <tr align="center">
+        <td>MMLU</td>
+        <td>52.0</td>
+        <td>49.3</td>
+        <td>56.1</td>
+        <td>61.7</td>
+        <td>67.3</td>
+        <td>57.5</td>
+        <td>58.1</td>
+        <td>66.1</td>
+    </tr>
+    <tr align="center">
+        <td>BBH</td>
+        <td>24.2</td>
+        <td>58.7</td>
+        <td>41.4</td>
+        <td>57.3</td>
+        <td>70.4</td>
+        <td>63.7</td>
+        <td>72.2</td>
+        <td>59.1</td>
+    </tr>
+    <tr align="center">
+        <th>General Avg.</th>
+        <td>43.2</td>
+        <td>52.3</td>
+        <td>-</td>
+        <td>60.3</td>
+        <td>-</td>
+        <td>61.2</td>
+        <td>-</td>
+        <td>64.1</td>
+    </tr>
+    <tr align="center">
+        <td colspan="9">Mathematics Tasks</td>
+    </tr>
+    <tr align="center">
+        <td>GSM8K</td>
+        <td>54.4</td>
+        <td>68.5</td>
+        <td>62.6</td>
+        <td>73.5</td>
+        <td>88.6</td>
+        <td>79.2</td>
+        <td>89.2</td>
+        <td>79.5</td>
+    </tr>
+    <tr align="center">
+        <td>MATH</td>
+        <td>38.1</td>
+        <td>33.5</td>
+        <td>27.2</td>
+        <td>44.1</td>
+        <td>64.0</td>
+        <td>44.1</td>
+        <td>75.6</td>
+        <td>60.8</td>
+    </tr>
+    <tr align="center">
+        <th>Math Avg.</th>
+        <td>46.2</td>
+        <td>51.0</td>
+        <td>44.9</td>
+        <td>58.8</td>
+        <td>68.8</td>
+        <td>61.7</td>
+        <td>82.4</td>
+        <td>70.1</td>
+    </tr>
+    <tr align="center">
+        <td colspan="9">Overall</td>
+    </tr>
+    <tr align="center">
+        <th>Overall</th>
+        <td>44.2</td>
+        <td>55.8</td>
+        <td>-</td>
+        <td>58.9</td>
+        <td>-</td>
+        <th>64.3</th>
+        <td>-</td>
+        <th>68.4</th>
+    </tr>
 </table>
 
 ## Quick Starts
