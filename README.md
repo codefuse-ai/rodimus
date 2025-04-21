@@ -32,25 +32,11 @@ We propose Rodimus&ast;, including Rodimus and Rodimus+, which tries to break th
 <img src="assets/overview.png" height="" width="800px" style="margin-bottom:px"/> 
 </div>
 
-**Rodimus+Coder:**
-* We train and opensource the lightweight Rodimus+-Coder model, available in 1.6B and 4B sizes, achieving performance surpassing SOTA models of similar sizes.
+**Rodimus+-Coder:**
+* We train and open-source the lightweight Rodimus+-Coder model, available in 1.6B and 4B sizes, achieving performance surpassing SOTA models of similar sizes.
 
 <div align=center>
 <img src="assets/rodimus-plus-coder-chat-evaluation.png" height="" width="800px" style="margin-bottom:px"/> 
-</div>
-
-You can download the following table to see the various parameters for your use case. If you are located in mainland China, we also provide the model on modelscope.cn to speed up the download process.
-
-<div align="center">
-
-|     **Model**      | **#Total Params** | **Training Token** | **Context Length** | **Download** |
-| :----------------: | :---------------: | :----------------: | :----------------: | :----------: |
-| Rodimus+-1.6B-Base-20250215 |       1.6B       |       6T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215) |
-| Rodimus+-Coder-1.6B-Base |       1.6B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B) |
-| Rodimus+-Coder-1.6B-Chat |       1.6B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) |
-| Rodimus+-Coder-4B-Base |       4B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B) |
-| Rodimus+-Coder-4B-Chat |       4B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) |
-
 </div>
 
 ## Highlights
@@ -73,19 +59,256 @@ You can download the following table to see the various parameters for your use 
 
 > This checkpoints completed training before submitting the paper, used to reproduce the benchmarks in the paper. 
 > 
-> If you want to use the more practical model, we strongly recommand you to download the checkpionts in **Rodimus+Coder**.
+> If you want to use the more practical model, we strongly recommand you to download the checkpionts in **Rodimus+-Coder**.
 
-<div align=center>
+<div align="center">
 
-| Model (2024/10/01)                   | Contexts | HuggingFace | ModelScope
-| ------------------------ | -------- | ----------- | ----------- |
-| Rodimus-1.4B-Base     | 2048     |   <a href="https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001">link</a>          | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001/summary">link</a>          |
-| Rodimus+-1.6B-Base | 2048     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001/summary">link</a>          |
-| Rodimus+-Coder-1.6B-Base-20241001 | 4096     |   <a href="https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001">link</a>           | <a href="https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001/summary">link</a>          |
+|     **Model (2024/10/01)**      | **#Total Params** | **Context Length** | **Download** |
+| :----------------: | :---------------: | :----------------: | :----------: |
+| Rodimus-1.4B-Base |       1.4B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001) |
+| Rodimus+-1.6B-Base |       1.6B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001) |
+| Rodimus+-Coder-1.6B-Base-20241001 |       1.6B       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) |
 
 </div>
 
 The `Rodimus+-Coder-1.6B-Base-20241001` is the model enhanced by multi-stage training with math and code datasets in the paper.
+
+### Rodimus+-Coder Checkpoints
+
+You can download the following table to see the various parameters for your use case. If you are located in mainland China, we also provide the model on modelscope.cn to speed up the download process.
+
+<div align="center">
+
+|     **Model**      | **#Total Params** | **Training Token** | **Context Length** | **Download** |
+| :----------------: | :---------------: | :----------------: | :----------------: | :----------: |
+| Rodimus+-1.6B-Base-20250215 |       1.6B       |       6T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20250215) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20250215) |
+| Rodimus+-Coder-1.6B-Base |       1.6B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B) |
+| Rodimus+-Coder-1.6B-Chat |       1.6B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-1.6B-Chat) |
+| Rodimus+-Coder-4B-Base |       4B       |       8.2T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B) |
+| Rodimus+-Coder-4B-Chat |       4B       |              |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) <br> [🤖 ModelScope](https://modelscope.cn/models/codefuse-ai/Rodimus-Plus-Coder-4B-Chat) |
+
+</div>
+
+## Rodimus+-Coder Evaluation
+
+We re-evaluate the metrics of the Qwen series models, and the metrics of other series models are quoted from the original paper.
+
+### Rodimus+-Coder-Base
+
+<table>
+    <tr align="center">
+        <th>Datasets</th>
+        <th>Qwen2.5-Coder-1.5B</th>
+        <th>Rodimus+-Coder-1.6B-Base</th>
+        <th>Gemma2-2B-PT</th>
+        <th>Qwen2.5-Coder-3B</th>
+        <th>Rodimus+-Coder-4B-Base</th>
+        <th>Gemma3-4B-PT</th>
+        <th>Qwen2.5-Coder-7B</th>
+    </tr>
+    <tr align="center">
+        <td colspan="8">Coding Tasks</td>
+    </tr>
+    <tr align="center">
+        <th>HumanEval</th>
+        <td>41.5</td>
+        <td>51.2</td>
+        <td>19.5</td>
+        <td>51.8</td>
+        <th>60.4</th>
+        <td>36.0</td>
+        <th>60.4</th>
+    </tr>
+    <tr align="center">
+        <th>HumanEval+</th>
+        <td>34.8</td>
+        <td>45.1</td>
+        <td>-</td>
+        <td>40.9</td>
+        <th>52.4</th>
+        <td>-</td>
+        <td>50.6</td>
+    </tr>
+    <tr align="center">
+        <th>MBPP</th>
+        <td>57.2</td>
+        <td>51.2</td>
+        <td>31.0</td>
+        <td>62.6</td>
+        <td>64.6</td>
+        <td>46.0</td>
+        <th>70.0</th>
+    </tr>
+    <tr align="center">
+        <th>MBPP+</th>
+        <td>66.1</td>
+        <td>62.2</td>
+        <td>-</td>
+        <td>65.9</td>
+        <th>71.4</th>
+        <td>-</td>
+        <td>70.1</td>
+    </tr>
+    <tr align="center">
+        <th>BCB<sub>COMPLETION</sub></th>
+        <td>21.6</td>
+        <td>17.9</td>
+        <td>-</td>
+        <td>26.2</td>
+        <th>30.8</th>
+        <td>-</td>
+        <td>30.4</td>
+    </tr>
+    <tr align="center">
+        <th>MultiPL-E</th>
+        <td>46.1</td>
+        <td>52.5</td>
+        <td>-</td>
+        <td>49.4</td>
+        <th>60.7</th>
+        <td>-</td>
+        <td>56.9</td>
+    </tr>
+    <tr align="center">
+        <th>CRUXEval</th>
+        <td>38.5</td>
+        <td>45.1</td>
+        <td>-</td>
+        <td>44.6</td>
+        <td>56.4</td>
+        <td>-</td>
+        <th>56.8</th>
+    </tr>
+    <tr align="center">
+        <th>Coding Avg.</th>
+        <td>43.7</td>
+        <td>46.5</td>
+        <td>-</td>
+        <td>48.8</td>
+        <th>56.7</th>
+        <td>-</td>
+        <td>56.4</td>
+    </tr>
+    <tr align="center">
+        <td colspan="8">General Tasks</td>
+    </tr>
+    <tr align="center">
+        <th>C-EVAL</th>
+        <td>55.2</td>
+        <td>56.7</td>
+        <td>-</td>
+        <td>65.3</td>
+        <th>70.2</th>
+        <td>-</td>
+        <td>69.1</td>
+    </tr>
+    <tr align="center">
+        <th>CMMLU</th>
+        <td>54.5</td>
+        <td>52.3</td>
+        <td>-</td>
+        <td>65.4</td>
+        <td>68.3</td>
+        <td>-</td>
+        <th>72.7</th>
+    </tr>
+    <tr align="center">
+        <th>MMLU</th>
+        <td>55.5</td>
+        <td>51.1</td>
+        <td>52.2</td>
+        <td>63.3</td>
+        <td>62.6</td>
+        <td>59.6</td>
+        <th>70.5</th>
+    </tr>
+    <tr align="center">
+        <th>BBH</th>
+        <td>21.8</td>
+        <td>46.8</td>
+        <td>42.4</td>
+        <td>32.5</td>
+        <td>61.9</td>
+        <td>50.9</td>
+        <th>67.3</th>
+    </tr>
+    <tr align="center">
+        <th>General Avg.</th>
+        <td>46.8</td>
+        <td>51.7</td>
+        <td>-</td>
+        <td>56.6</td>
+        <td>65.8</td>
+        <td>-</td>
+        <td>69.9</td>
+    </tr>
+    <tr align="center">
+        <td colspan="8">Mathematics Tasks</td>
+    </tr>
+    <tr align="center">
+        <th>GSM8K</th>
+        <td>60.4</td>
+        <td>68.7</td>
+        <td>25.0</td>
+        <td>72.1</td>
+        <td>78.5</td>
+        <td>38.4</td>
+        <td>83.4</td>
+    </tr>
+    <tr align="center">
+        <th>MATH</th>
+        <td>23.7</td>
+        <td>29.0</td>
+        <td>16.4</td>
+        <td>31.9</td>
+        <td>37.0</td>
+        <td>24.2</td>
+        <td>42.2</td>
+    </tr>
+    <tr align="center">
+        <th>Math Avg.</th>
+        <td>41.9</td>
+        <td>48.9</td>
+        <td>20.7</td>
+        <td>52.0</td>
+        <td>57.8</td>
+        <td>31.3</td>
+        <td>62.8</td>
+    </tr>
+    <tr align="center">
+        <td colspan="8">Overall</td>
+    </tr>
+    <tr align="center">
+        <th>Overall</th>
+        <td>44.4</td>
+        <td>48.4</td>
+        <td>-</td>
+        <td>51.7</td>
+        <th>59.6</th>
+        <td>-</td>
+        <th>61.6</th>
+    </tr>
+</table>
+
+### Rodimus+-Coder-Chat
+
+<table>
+    <tr align="center">
+        <th>Datasets</th>
+        <th>Qwen2.5-Coder-1.5B-Instruct</th>
+        <th>Rodimus+-Coder-1.6B-Chat</th>
+        <th>Gemma2-2B-IT</th>
+        <th>Qwen2.5-Coder-Instruct</th>
+        <th>Phi-4-Mini-3.8B</th>
+        <th>Rodimus+-Coder-4B-Chat</th>
+        <th>Gemma3-4B-IT</th>
+        <th>Qwen2.5-Coder-7B-Instruct</th>
+    </tr>
+    <tr align="center">
+        <td colspan="9">Coding Tasks</td>
+    </tr>
+    
+</table>
 
 ## Quick Starts
 
