@@ -648,11 +648,11 @@ If you find our work helpful, feel free to give us a cite.
 
 ```
 @inproceedings{
-he2025rodimus,
-title={Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions},
-author={Zhihao He and Hang Yu and Zi Gong and Shizhan Liu and Jianguo Li and Weiyao Lin},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=IIVYiJ1ggK}
+    he2025rodimus,
+    title={Rodimus*: Breaking the Accuracy-Efficiency Trade-Off with Efficient Attentions},
+    author={Zhihao He and Hang Yu and Zi Gong and Shizhan Liu and Jianguo Li and Weiyao Lin},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=IIVYiJ1ggK}
 }
 ```
