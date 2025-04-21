@@ -91,7 +91,7 @@ You can download the following table to see the various parameters for your use 
 
 ## Rodimus+-Coder Evaluation
 
-We re-evaluate the metrics of the Qwen series models, and the metrics of other series models are quoted from the original paper.
+We re-evaluate the metrics of the Qwen series models, and the metrics of other series models are quoted from the original paper. We will release the evaluation script in [CodeFuse-Evaluation](https://github.com/codefuse-ai/codefuse-evaluation).
 
 ### Rodimus+-Coder-Base
 
