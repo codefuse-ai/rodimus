@@ -64,7 +64,7 @@ We propose Rodimus&ast;, including Rodimus and Rodimus+, which tries to break th
 <div align="center">
 
 |     **Model (2024/10/01)**      | **#Total Params** | **Training Tokens** | **Context Length** | **Download** |
-| :----------------: | :---------------: | :----------------: | :----------: | :----------: |
+| :----------------: | :---------------: | :----------------: | :----------: | :-------------: |
 | Rodimus-1.4B-Base |       1.4B       |       500B       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-admin/rodimus_1B4_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_1B4_base_20241001) |
 | Rodimus+-1.6B-Base |       1.6B       |       1T       |        2K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_1B6_base_20241001) |
 | Rodimus+-Coder-1.6B-Base-20241001 |       1.6B       |       2.5T       |        4K         |      [🤗 HuggingFace](https://huggingface.co/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) <br> [🤖 ModelScope](https://www.modelscope.cn/models/codefuse-ai/rodimus_plus_coder_1B6_base_20241001) |
